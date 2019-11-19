@@ -1,22 +1,48 @@
-.App {
-  text-align: center;
+.user-image{
+  width:90px ;
+  height: 90px;
 }
-
-.App-logo {
-  height: 40vmin;
+.user-image{
+display:flex;
+border-radius: 5em;
+position: relative;
+top:30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.image{
+  
+  background-image: url('https://www.apyart.com/2108-thickbox_default/bleu-cobalt-500ml.jpg');
+}
+.user-list{
+ background:#ffffff;
+  border: black 1px solid;
+  width: 30%;
+   margin:2%;
+  
+} 
+.users-list{
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+.user-image{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left:145px;
 }
-
-.App-link {
-  color: #09d3ac;
+.user-name{
+  margin-left:100px;
+  font-size:x-large ;
+  padding: 20px;
 }
+ .phone-user{
+  margin-left:135px;
+ }
+ .butt{
+   border-radius: 15%;
+   margin-left:155px;
+   font-size: 1rem;
+   background:blue;
+   color:#ffffff;
+ }
+ .post{
+   background: #18BDCF;
+ }
